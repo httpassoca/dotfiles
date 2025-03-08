@@ -25,6 +25,10 @@ yabai -m rule --add app="^Books$" space=1
 yabai -m rule --add app="^Notion$" space=3
 yabai -m rule --add app="^Notion Calendar$" space=3
 
+yabai -m signal --add app='^Ghostty$' event=window_created action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
+yabai -m signal --add app='^Ghostty$' event=window_destroyed action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
+yabai -m signal --add app='^Finder$' event=window_created action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
+yabai -m signal --add app='^Finder$' event=window_destroyed action='yabai -m space --focus next; sleep 0.01; yabai -m space --focus prev'
 # Ignore apps
 # mostly ones which doesn't fit well
 yabai -m rule --add app="System Settings" manage=off

@@ -19,3 +19,7 @@
 - just set the wallpapers to the folder:
 ![](image.png)
 - It should have more sometime
+
+## Reminders
+- Install https://github.com/mirairoad/macos_show_active_workspace (change the backgroundColor to NSColor.black)
+  

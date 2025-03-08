@@ -1,0 +1,17 @@
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+
+# # All of these are identical:
+# key=value
+# key= value
+# key =value
+# key = value
+# # Empty values are used to reset config keys to default.
+# key =
+#
+
+font-size = 14
+theme = synthwave-everything
+cursor-style = block
+shell-integration = zsh
+auto-update = download

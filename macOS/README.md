@@ -8,6 +8,7 @@
 - Better Touch Tool (I need the 4 finger touch)
 - AltTab (settings on com.alt-tab.plist)
 - PasteBar
+- [AutoRaise](https://github.com/sbmpost/AutoRaise)
 - SKHD (keyboard shortcuts)
 - Yabai (window manager)
 
